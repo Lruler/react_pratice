@@ -10,7 +10,7 @@ const useForm = (initialValues = {}) => {
     
         const setFieldValue = useCallback((name,value) => {
     
-            setValues(value => ({
+            setValues(value  => ({
     
                 ...values,
     
